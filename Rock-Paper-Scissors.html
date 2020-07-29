@@ -1,0 +1,38 @@
+<head>
+    <title>Rock Paper Scissors game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body> 
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div id='scores'>
+        <table>
+            <tr>
+               <td>Player</td> <td>Draw</td> <td>Computer</td>
+            </tr>
+            <tr>
+               <td id='player-score'>0</td> <td id='draw-score'>0</td> <td id='computer-score'>0</td>
+            </tr>
+         </table>
+    </div>
+
+    <div id="moves">
+        <p id='computer-move'></p>
+        <p id='round-score'></p>
+    </div>
+
+    <div id='buttons'>
+        <button id='rock'><i class="rock"></i></button>
+        <button id='paper'><i class="paper"></i></button>
+        <button id='scissors'><i class="scissors"></i></button>
+    </div>
+    <div id='winner'> 
+    </div>
+   
+    <script src='script.js'></script>
+
+</body>

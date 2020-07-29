@@ -1,0 +1,130 @@
+body {
+    background-color: gray;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+header {
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+h1 {
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+table {
+    margin-left: auto; 
+    margin-right: auto;
+    height: 100px;
+    width: 150px;
+    border-collapse: collapse;
+    column-width: 50px;
+}
+
+th, td {
+    text-decoration: double;
+    border-bottom: 1px solid  aliceblue;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-justify: center;
+  }
+
+button#rock, button#paper, button#scissors {
+    background-color: gray;
+    padding: 0px;
+    border: 0px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.rock:hover, .paper:hover, .scissors:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+#moves {
+    padding: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+    height: 100px;
+    width: 300px;
+}
+
+#buttons {
+    font-size: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#winner {
+    margin-top: 30px;
+    color: black;
+    font-size: 40px;
+    display:block;
+    padding: 10px;
+}
+
+.refresh {
+    margin-top: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+}
+
+.rock {
+    border-radius: 50%;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    background-image: url("images/icons_black.png");
+    background-size: 326px 112px;
+    background-position: -20px -15px;
+}
+
+.paper {
+    border-radius: 50%;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    background-image: url("images/icons_black.png");
+    background-size: 326px 112px;
+    background-position: -125px -15px;
+}
+
+.scissors {
+    border-radius: 50%;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    background-image: url("images/icons_black.png");
+    background-size: 326px 112px;
+    background-position: -227px -15px;
+}
+
+.refresh {
+    background-color: black;
+    color: gray;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+}
+
+.refresh:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
